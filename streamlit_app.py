@@ -40,3 +40,6 @@ fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon"
 
 # Display the response from the FruityVice API
 streamlit.text(fruityvice_response)
+
+#New Section to disply fruityvice api response
+streamlit.header("Fruityvice Fruit Advice!")
