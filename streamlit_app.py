@@ -2,6 +2,9 @@ import streamlit
 import pandas
 import requests
 
+#New Section to disply fruityvice api response
+streamlit.header("Fruityvice Fruit Advice!")
+
 # Set the title of the app
 streamlit.title('My Parents New Healthy Diner')
 
